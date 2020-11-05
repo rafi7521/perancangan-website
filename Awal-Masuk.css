@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("taman-nasional-bromo-tengger-semeru-jawa-timur1.jpg"); }
+  .img2 { background-image: url("Pantai-Balekambang.jpg"); }
+  .img3 { background-image: url("Pantai-Goa-CIna-Malang.jpg"); }
+  .img4 { background-image: url("Harga-Tiket-Jatim-Park-1.jpg"); }
+  .img5 { background-image: url("masjid.jpg"); }
+  .img6 { background-image: url("Museum-Tubuh.jpeg"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(255, 255, 255); /* Fallback color */
+    background-color: hsla(0, 0%, 0%, 0.89); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 75px;
+    border: 8px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+  }
+  .txt-next {
+    background-color: rgb(22, 0, 83); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.74); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 8px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 250px;
+    padding: 40px;
+    text-align: center;
+  }
